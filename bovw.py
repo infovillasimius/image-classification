@@ -93,5 +93,3 @@ validation_pred = classifier.predict(X_test)
 
 print(confusion_matrix(y_test, validation_pred))
 print(classification_report(y_test, validation_pred))
-
-
